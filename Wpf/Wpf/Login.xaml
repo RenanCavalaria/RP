@@ -1,0 +1,19 @@
+﻿<Window x:Class="Wpf.CadastroUsuario.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf.CadastroUsuario"
+        mc:Ignorable="d"
+        Title="Login" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Cadastrar_se"  Content="Cadastrar-se" HorizontalAlignment="Left" Margin="314,219,0,0" VerticalAlignment="Top" Width="81" Height="30" Click="Cadastrar_se_Click"/>
+        <Button x:Name="SingIn" Content="SingIn" HorizontalAlignment="Left" Margin="414,219,0,0" VerticalAlignment="Top" Width="52" Height="30" Click="SingIn_Click"/>
+        <TextBox x:Name="Cpf" HorizontalAlignment="Left" Height="31" Margin="314,82,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="152"/>
+        <Label Content="Cpf" HorizontalAlignment="Left" Margin="252,87,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.793,3.394"/>
+        <TextBox x:Name="Senha" HorizontalAlignment="Left" Height="28" Margin="314,151,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="152"/>
+        <Label Content="Senha" HorizontalAlignment="Left" Margin="252,151,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="mostra" Content="" HorizontalAlignment="Left" Margin="280,332,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Window>
